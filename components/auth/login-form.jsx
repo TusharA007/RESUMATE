@@ -53,10 +53,10 @@ export default function LoginForm() {
       <section className="grid w-full max-w-5xl gap-6 rounded-[28px] border border-white/10 bg-white/[0.04] p-5 shadow-[0_28px_100px_rgba(0,0,0,0.45)] backdrop-blur-2xl md:grid-cols-[1fr_0.9fr]">
         <div className="rounded-[22px] bg-[linear-gradient(135deg,rgba(79,70,229,0.5),rgba(6,182,212,0.16))] p-8">
           <Link className="flex items-center gap-3" href="/">
-            <span className="grid h-14 w-14 place-items-center overflow-hidden rounded-2xl border border-cyan-300/30 bg-cyan-300/10">
-              <Image src="/logo.png" alt="RESUMETAI logo" width={48} height={48} className="h-12 w-12 object-contain" priority />
+            <span className="grid h-16 w-16 place-items-center overflow-hidden rounded-2xl border border-cyan-300/30 bg-cyan-300/10">
+              <Image src="/logo.png" alt="RESUMETAI logo" width={56} height={56} className="h-14 w-14 object-contain" priority />
             </span>
-            <span className="text-2xl font-black">RESUMETAI</span>
+            <span className="text-3xl font-black">RESUMETAI</span>
           </Link>
           <h1 className="mt-12 max-w-md text-4xl font-black leading-tight">Your AI voice interview and career intelligence workspace.</h1>
           <p className="mt-4 max-w-md text-slate-300">Save resume scans, interview feedback, readiness analytics, and learning progress with secure account storage.</p>
